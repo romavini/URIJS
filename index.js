@@ -1,14 +1,14 @@
 // 1005
-var input1 = prompt('nota 1');
-var input2 = prompt('nota 2');
-var input3 = prompt('nota 3');
-var input4 = prompt('nota 4');
+var input1 = parseFloat(prompt('nota 1'));
+var input2 = parseFloat(prompt('nota 2'));
+var input3 = parseFloat(prompt('nota 3'));
+var input4 = parseFloat(prompt('nota 4'));
 
 var media = (
-  parseFloat(input1) 
-  + parseFloat(input2)
-  + parseFloat(input3)
-  + parseFloat(input4)
+  input1 
+  + input2
+  + input3
+  + input4
 ) / 4;
 
 console.log("MEDIA = " + media.toFixed(5));
